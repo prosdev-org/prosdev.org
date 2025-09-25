@@ -3,7 +3,7 @@
     "packageManager": "yarn@4.6.0",
     "scripts": {
         "dev": "yarn tailwindcss -i ./static/css/tailwind.css -o ./static/css/main.css --watch",
-        "build": "yarn tailwindcss -i ./static/css/tailwind.css -o ./static/css/main.css"
+        "build": "yarn tailwindcss -i ./static/css/tailwind.css -o ./static/css/main.css --minify"
     },
     "devDependencies": {
         "prettier": "^3.6.2",
